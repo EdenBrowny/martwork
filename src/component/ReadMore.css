@@ -20,3 +20,21 @@
   font-size: 1rem;
   font-weight: 400;
 }
+
+@media (max-width: 768px) {
+  .container {
+    width: 75%;
+    text-align: center;
+  }
+  .text {
+    display: inline;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    /* font-size: 50%; */
+    width: 65%;
+    text-align: center;
+  }
+}
